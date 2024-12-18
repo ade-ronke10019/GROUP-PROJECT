@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgb(35, 166, 210);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color:blue ;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px 20px; 
+    background-color: transparent;
+}
+.grid-item{
+    border: 5px solid yellow;
+    color: blueviolet;
+    text-align: center;
+    padding: 100px;
+    width: 50px;
+    border-radius: 15px;
+}
